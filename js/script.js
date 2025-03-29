@@ -4,9 +4,18 @@
 // Created on: Sep 2020
 // This file contains the JS functions for index.html
 
+"use strict"
+
 /**
- * Displays an alert with the message "Hello, World!"
+ * This function calculates area of a square.
  */
-function myButtonClicked() {
-  alert("Hello, World!")
+function calculateAreaOfSquare () {
+  // input
+  const lengthOfSide = parseInt(document.getElementById('length-of-side').value)
+
+  // process
+  const areaOfSquare = (lengthOfSide) * 2
+
+  // output
+  document.getElementById('area').innerHTML = 'Area is: ' + areaOfSquare + ' cm²'
 }
