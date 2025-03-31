@@ -15,7 +15,7 @@ function calculateAreaOfSquare () {
   const lengthOfSide = parseInt(document.getElementById('length-of-side').value)
 
   // process
-  const areaOfSquare = (lengthOfSide) * 2
+  const areaOfSquare = (lengthOfSide) ** 2
 
   // output
   document.getElementById('area').innerHTML = 'Area is: ' + areaOfSquare + ' cm²'
