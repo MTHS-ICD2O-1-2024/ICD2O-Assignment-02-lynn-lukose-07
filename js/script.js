@@ -10,13 +10,16 @@
 /**
  * This function calculates area of a square.
  */
-function calculateAreaOfSquare () {
+function calculateAreaOfSquare() {
   // input
-  const lengthOfSide = parseFloat(document.getElementById('length-of-side').value)
+  const lengthOfSide = parseFloat(
+    document.getElementById("length-of-side").value
+  )
 
   // process
   const areaOfSquare = (lengthOfSide) ** 2
 
   // output
-  document.getElementById('area').innerHTML = 'Area is: ' + areaOfSquare + ' cm²'
+  document.getElementById("area").innerHTML =
+    "Area is: " + areaOfSquare + " cm²"
 }
